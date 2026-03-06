@@ -1,0 +1,63 @@
+Added Component: Designator=C1(10uF/50V)
+Added Component: Designator=C2(10uF/50V)
+Added Component: Designator=D1(1N5819)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.mouser.com/datasheet/2/849/1n5817-2577238.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digikey PN"; Value = "497-6610-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "JLCPCB PN"; Value = "C437199"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser PN"; Value = "637-1N5819"; VariantName = "[No Variations]"
+Added Component: Designator=LED(LED_0805_YELLOW)
+Add component (AddParameter): Name = "JLCPCB PN"; Value = "C84261"; VariantName = "[No Variations]"
+Added Component: Designator=Q1(TO92254P470H750-3)
+Add component (AddParameter): Name = "Availability"; Value = "In Stock"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/2N2222A/Diotec/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Diotec Semiconductor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "2N2222A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "TO-92-3 Diotec"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Purchase-URL"; Value = "https://pricing.snapeda.com/search/part/2N2222A/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/2N2222A/Diotec/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R1(LDR)
+Add component (AddParameter): Name = "Digikey PN"; Value = "PDV-P8107-ND"; VariantName = "[No Variations]"
+Added Component: Designator=R2(RESISTOR_PTH_9.5mm)
+Added Component: Designator=R4(RESISTOR_PTH_9.5mm)
+Added Component: Designator=U1(USB)
+Added Component: Designator=U2(L7805_smd)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.mouser.com/datasheet/2/389/l78-1849632.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digikey PN"; Value = "497-1443-5-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "JLCPCB PN PTH"; Value = "C347289"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "JLCPCB PN SMD"; Value = "C15077"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser PN"; Value = "511-L7805CV"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C1-1
+Added Pin To Net: NetName=GND Pin=C2-1
+Added Pin To Net: NetName=GND Pin=Q1-1
+Added Pin To Net: NetName=GND Pin=R4-2
+Added Pin To Net: NetName=GND Pin=U1-4
+Added Pin To Net: NetName=GND Pin=U2-2
+Added Net: Name=GND
+Added Pin To Net: NetName=NetC1_2 Pin=C1-2
+Added Pin To Net: NetName=NetC1_2 Pin=D1-2
+Added Pin To Net: NetName=NetC1_2 Pin=U2-1
+Added Net: Name=NetC1_2
+Added Pin To Net: NetName=NetC2_2 Pin=C2-2
+Added Pin To Net: NetName=NetC2_2 Pin=LED-1
+Added Pin To Net: NetName=NetC2_2 Pin=R1-1
+Added Pin To Net: NetName=NetC2_2 Pin=U2-3
+Added Net: Name=NetC2_2
+Added Pin To Net: NetName=NetD1_1 Pin=D1-1
+Added Pin To Net: NetName=NetD1_1 Pin=U1-1
+Added Net: Name=NetD1_1
+Added Pin To Net: NetName=NetLED_2 Pin=LED-2
+Added Pin To Net: NetName=NetLED_2 Pin=R2-1
+Added Net: Name=NetLED_2
+Added Pin To Net: NetName=NetQ1_2 Pin=Q1-2
+Added Pin To Net: NetName=NetQ1_2 Pin=R1-2
+Added Pin To Net: NetName=NetQ1_2 Pin=R4-1
+Added Net: Name=NetQ1_2
+Added Pin To Net: NetName=NetQ1_3 Pin=Q1-3
+Added Pin To Net: NetName=NetQ1_3 Pin=R2-2
+Added Net: Name=NetQ1_3
+Added Class: Name=Assign
+Added Rule: Name=Schematic Supply Nets

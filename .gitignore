@@ -11,5 +11,5 @@
 .Hackathon/**/venv/
 .Hackathon/**/__pycache__/
 
-# Mở khóa cho dự án Cấu trúc dữ liệu và Giải thuật
 !Data_Structures_and_AlgoriThms/
+!Computer_Architecture/

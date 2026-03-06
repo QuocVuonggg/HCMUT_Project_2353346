@@ -1,0 +1,7 @@
+-Student personal information-
+Name: Davy Jones
+ID: 2251234
+Address: 168 Ly Thuong Kiet St DisWard 14 HCMC
+Age: 69
+Religion: Nondfvfve
+

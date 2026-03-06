@@ -1,0 +1,2 @@
+--- Bat dau phien ghi moi ---
+Timestamp,StepCount,FSR,AccelX,AccelY,AccelZ,AccelVM

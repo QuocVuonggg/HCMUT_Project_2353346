@@ -1,0 +1,9 @@
+main.c:69:6:button_reading	24	static
+main.c:103:15:is_button_pressed	16	static
+main.c:108:15:is_button_pressed_1s	16	static
+main.c:118:5:main	8	static
+main.c:168:6:SystemClock_Config	72	static
+main.c:204:13:MX_TIM2_Init	32	static
+main.c:249:13:MX_GPIO_Init	32	static
+main.c:302:6:HAL_TIM_PeriodElapsedCallback	16	static
+main.c:312:6:Error_Handler	4	static,ignoring_inline_asm

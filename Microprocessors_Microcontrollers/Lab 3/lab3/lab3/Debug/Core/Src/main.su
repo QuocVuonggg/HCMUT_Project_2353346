@@ -1,0 +1,12 @@
+main.c:79:6:display7SEG	24	static
+main.c:99:6:update7SEG	16	static
+main.c:128:6:clearAllLeds	8	static
+main.c:137:6:setLedsRoad1	16	static
+main.c:154:6:setLedsRoad2	16	static
+main.c:175:5:main	8	static
+main.c:270:6:handle_button_logic	8	static
+main.c:343:6:fsm_traffic_light_run	8	static
+main.c:420:6:SystemClock_Config	72	static
+main.c:456:13:MX_TIM2_Init	32	static
+main.c:505:13:MX_GPIO_Init	32	static
+main.c:559:6:Error_Handler	4	static,ignoring_inline_asm

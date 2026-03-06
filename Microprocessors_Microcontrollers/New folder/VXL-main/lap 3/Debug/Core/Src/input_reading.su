@@ -1,0 +1,5 @@
+input_reading.c:21:6:set_portBuffer	4	static
+input_reading.c:26:6:set_pinBuffer	4	static
+input_reading.c:31:6:readButton_preprocess	16	static
+input_reading.c:45:6:readButton	16	static
+input_reading.c:108:5:getButton	16	static

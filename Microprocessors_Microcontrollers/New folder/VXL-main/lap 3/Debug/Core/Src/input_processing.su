@@ -1,0 +1,6 @@
+input_processing.c:20:6:display7SEG	24	static
+input_processing.c:69:6:traffic_func	32	static
+input_processing.c:180:6:resetPin	8	static
+input_processing.c:194:6:fsm_input_processing	40	static
+input_processing.c:303:6:setTime	4	static
+input_processing.c:311:6:preprocess	8	static

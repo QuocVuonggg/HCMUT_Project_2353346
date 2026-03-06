@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../DatapathPipelined.v" \
+"../../../../../DividerUnsignedPipelined.v" \
+"../../../../../cla.v" \
+"../../../../../divu_1iter.v" \
+"../../../../../process_tb_assignment.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

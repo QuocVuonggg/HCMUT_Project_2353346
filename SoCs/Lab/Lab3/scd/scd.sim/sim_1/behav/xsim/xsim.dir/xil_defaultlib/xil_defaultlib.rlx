@@ -1,0 +1,11 @@
+0.7
+2020.2
+Nov  8 2024
+22:36:57
+D:/Subject/SoCs/Lab/Lab3/DatapathSingleCycle.v,1765544129,verilog,,D:/Subject/SoCs/Lab/Lab3/cla.v,,DatapathSingleCycle;MemorySingleCycle;Processor;RegFile,,,,,,,,
+D:/Subject/SoCs/Lab/Lab3/cla.v,1765530587,verilog,,D:/Subject/SoCs/Lab/Lab3/divider_unsigned.v,,cla;gp1;gp4;gp8,,,,,,,,
+D:/Subject/SoCs/Lab/Lab3/divider_unsigned.v,1765527051,verilog,,D:/Subject/SoCs/Lab/Lab3/divu_1iter.v,,divider_unsigned,,,,,,,,
+D:/Subject/SoCs/Lab/Lab3/divu_1iter.v,1765249958,verilog,,D:/Subject/SoCs/Lab/Lab3/scd/scd.srcs/sim_1/new/tb_processor.v,,divu_1iter,,,,,,,,
+D:/Subject/SoCs/Lab/Lab3/scd/scd.sim/sim_1/behav/xsim/glbl.v,1724786425,verilog,,,,glbl,,,,,,,,
+D:/Subject/SoCs/Lab/Lab3/scd/scd.srcs/sim_1/new/tb_processor.v,1765111143,verilog,,,,tb_processor,,,,,,,,
+D:/Subject/SoCs/Lab/Lab3/scd/scd.srcs/sim_1/new/tb_regfile.v,1765111872,verilog,,,,tb_regfile,,,,,,,,

@@ -1,0 +1,110 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Fri Dec 12 20:06:16 2025
+| Host         : BadSugarDaddy running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file system_control_sets_placed.rpt
+| Design       : system
+| Device       : xc7z020
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    32 |
+|    Minimum number of control sets                        |    32 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |     0 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    32 |
+| >= 0 to < 4        |     0 |
+| >= 4 to < 6        |     0 |
+| >= 6 to < 8        |     0 |
+| >= 8 to < 10       |     0 |
+| >= 10 to < 12      |     0 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     0 |
+| >= 16              |    32 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               0 |            0 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              32 |           13 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |             992 |          435 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++----------------+---------------------------------------+------------------+------------------+----------------+--------------+
+|  Clock Signal  |             Enable Signal             | Set/Reset Signal | Slice Load Count | Bel Load Count | Bels / Slice |
++----------------+---------------------------------------+------------------+------------------+----------------+--------------+
+|  clk_IBUF_BUFG |                                       | btn_IBUF[0]      |               13 |             32 |         2.46 |
+|  clk_IBUF_BUFG | my_cpu/memory/E[0]                    | btn_IBUF[0]      |               14 |             32 |         2.29 |
+|  clk_IBUF_BUFG | my_cpu/memory/mem_array_reg_1_0_17[0] | btn_IBUF[0]      |               11 |             32 |         2.91 |
+|  clk_IBUF_BUFG | my_cpu/memory/mem_array_reg_1_0_18[0] | btn_IBUF[0]      |               13 |             32 |         2.46 |
+|  clk_IBUF_BUFG | my_cpu/memory/mem_array_reg_1_0_11[0] | btn_IBUF[0]      |               18 |             32 |         1.78 |
+|  clk_IBUF_BUFG | my_cpu/memory/mem_array_reg_1_0_15[0] | btn_IBUF[0]      |               12 |             32 |         2.67 |
+|  clk_IBUF_BUFG | my_cpu/memory/mem_array_reg_0_1_4[0]  | btn_IBUF[0]      |               14 |             32 |         2.29 |
+|  clk_IBUF_BUFG | my_cpu/memory/mem_array_reg_1_0_5[0]  | btn_IBUF[0]      |               12 |             32 |         2.67 |
+|  clk_IBUF_BUFG | my_cpu/memory/mem_array_reg_1_0_10[0] | btn_IBUF[0]      |               17 |             32 |         1.88 |
+|  clk_IBUF_BUFG | my_cpu/memory/mem_array_reg_1_0_4[0]  | btn_IBUF[0]      |               14 |             32 |         2.29 |
+|  clk_IBUF_BUFG | my_cpu/memory/mem_array_reg_1_0_26[0] | btn_IBUF[0]      |               12 |             32 |         2.67 |
+|  clk_IBUF_BUFG | my_cpu/memory/mem_array_reg_1_0_14[0] | btn_IBUF[0]      |               13 |             32 |         2.46 |
+|  clk_IBUF_BUFG | my_cpu/memory/mem_array_reg_0_1_3[0]  | btn_IBUF[0]      |               15 |             32 |         2.13 |
+|  clk_IBUF_BUFG | my_cpu/memory/mem_array_reg_1_0_16[0] | btn_IBUF[0]      |               16 |             32 |         2.00 |
+|  clk_IBUF_BUFG | my_cpu/memory/mem_array_reg_1_0_24[0] | btn_IBUF[0]      |               11 |             32 |         2.91 |
+|  clk_IBUF_BUFG | my_cpu/memory/mem_array_reg_1_0_3[0]  | btn_IBUF[0]      |               12 |             32 |         2.67 |
+|  clk_IBUF_BUFG | my_cpu/memory/mem_array_reg_1_0_21[0] | btn_IBUF[0]      |               12 |             32 |         2.67 |
+|  clk_IBUF_BUFG | my_cpu/memory/mem_array_reg_1_0_23[0] | btn_IBUF[0]      |               13 |             32 |         2.46 |
+|  clk_IBUF_BUFG | my_cpu/memory/mem_array_reg_1_0_0[0]  | btn_IBUF[0]      |               11 |             32 |         2.91 |
+|  clk_IBUF_BUFG | my_cpu/memory/mem_array_reg_1_0_25[0] | btn_IBUF[0]      |               13 |             32 |         2.46 |
+|  clk_IBUF_BUFG | my_cpu/memory/mem_array_reg_1_0_2[0]  | btn_IBUF[0]      |               14 |             32 |         2.29 |
+|  clk_IBUF_BUFG | my_cpu/memory/mem_array_reg_1_0_6[0]  | btn_IBUF[0]      |               15 |             32 |         2.13 |
+|  clk_IBUF_BUFG | my_cpu/memory/mem_array_reg_1_0_13[0] | btn_IBUF[0]      |               17 |             32 |         1.88 |
+|  clk_IBUF_BUFG | my_cpu/memory/mem_array_reg_1_0_8[0]  | btn_IBUF[0]      |               20 |             32 |         1.60 |
+|  clk_IBUF_BUFG | my_cpu/memory/mem_array_reg_1_0_20[0] | btn_IBUF[0]      |                9 |             32 |         3.56 |
+|  clk_IBUF_BUFG | my_cpu/memory/mem_array_reg_0_1_5[0]  | btn_IBUF[0]      |               15 |             32 |         2.13 |
+|  clk_IBUF_BUFG | my_cpu/memory/mem_array_reg_1_0_9[0]  | btn_IBUF[0]      |               18 |             32 |         1.78 |
+|  clk_IBUF_BUFG | my_cpu/memory/mem_array_reg_1_0_19[0] | btn_IBUF[0]      |               16 |             32 |         2.00 |
+|  clk_IBUF_BUFG | my_cpu/memory/mem_array_reg_1_0_1[0]  | btn_IBUF[0]      |               13 |             32 |         2.46 |
+|  clk_IBUF_BUFG | my_cpu/memory/mem_array_reg_1_0_7[0]  | btn_IBUF[0]      |               12 |             32 |         2.67 |
+|  clk_IBUF_BUFG | my_cpu/memory/mem_array_reg_1_0_12[0] | btn_IBUF[0]      |               19 |             32 |         1.68 |
+|  clk_IBUF_BUFG | my_cpu/memory/mem_array_reg_1_0_22[0] | btn_IBUF[0]      |               14 |             32 |         2.29 |
++----------------+---------------------------------------+------------------+------------------+----------------+--------------+
+
+

@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../DatapathSingleCycle.v" \
+"../../../../../cla.v" \
+"../../../../../divider_unsigned.v" \
+"../../../../../divu_1iter.v" \
+"../../../../scd.srcs/sim_1/new/tb_processor.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

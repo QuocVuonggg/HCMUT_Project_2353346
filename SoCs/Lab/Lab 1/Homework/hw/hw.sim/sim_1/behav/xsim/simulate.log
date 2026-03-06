@@ -1,0 +1,22 @@
+Time resolution is 1 ps
+------------------------------------------------
+Bat dau mo phong Divider Unsigned...
+Test 1: 4 / 2 = 2 (Du 0)
+ -> PASSED
+Test 2: 10 / 4 = 2 (Du 2)
+ -> PASSED
+Test 3: 100 / 3 = 33 (Du 1)
+Test 4: 2000000 / 5 = 400000 (Du 0)
+Test 5 (Div by 1): 12345678 / 1 = 12345678 (Du 0)
+ -> PASSED
+Test 6 (Small / Big): 50 / 100 = 0 (Du 50)
+ -> PASSED
+Test 7 (Zero Dividend): 0 / 999 = 0 (Du 0)
+ -> PASSED
+Test 8 (Self Divide): 987654321 / 987654321 = 1 (Du 0)
+ -> PASSED
+Test 9 (Max 32-bit): ffffffff / 00000002 = 7fffffff (Du 00000001)
+ -> PASSED
+------------------------------------------------
+Mo phong hoan tat!
+$finish called at time : 90 ns : File "D:/Subject/SoCs/Lab/Lab 1/Homework/tb_divider.v" Line 70

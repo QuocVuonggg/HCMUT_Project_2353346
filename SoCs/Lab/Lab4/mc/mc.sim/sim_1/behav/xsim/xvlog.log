@@ -1,0 +1,16 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Subject/SoCs/Lab/Lab4/DatapathMultiCycle.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegFile
+INFO: [VRFC 10-311] analyzing module DatapathMultiCycle
+INFO: [VRFC 10-311] analyzing module MemorySingleCycle
+INFO: [VRFC 10-311] analyzing module Processor
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Subject/SoCs/Lab/Lab4/DividerUnsignedPipelined.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DividerUnsignedPipelined
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Subject/SoCs/Lab/Lab4/cla.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gp1
+INFO: [VRFC 10-311] analyzing module gp4
+INFO: [VRFC 10-311] analyzing module gp8
+INFO: [VRFC 10-311] analyzing module cla
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Subject/SoCs/Lab/Lab4/divu_1iter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module divu_1iter
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Subject/SoCs/Lab/Lab4/tb_processor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_processor

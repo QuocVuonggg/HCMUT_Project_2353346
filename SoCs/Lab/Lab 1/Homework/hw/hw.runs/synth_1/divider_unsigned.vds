@@ -1,0 +1,274 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Fri Dec 12 15:11:51 2025
+# Process ID         : 21244
+# Current directory  : D:/Subject/SoCs/Lab/Lab 1/Homework/hw/hw.runs/synth_1
+# Command line       : vivado.exe -log divider_unsigned.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source divider_unsigned.tcl
+# Log file           : D:/Subject/SoCs/Lab/Lab 1/Homework/hw/hw.runs/synth_1/divider_unsigned.vds
+# Journal file       : D:/Subject/SoCs/Lab/Lab 1/Homework/hw/hw.runs/synth_1\vivado.jou
+# Running On         : BadSugarDaddy
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : 12th Gen Intel(R) Core(TM) i7-12700H
+# CPU Frequency      : 2688 MHz
+# CPU Physical cores : 14
+# CPU Logical cores  : 20
+# Host memory        : 16869 MB
+# Swap memory        : 14495 MB
+# Total Virtual      : 31365 MB
+# Available Virtual  : 10292 MB
+#-----------------------------------------------------------
+source divider_unsigned.tcl -notrace
+Command: read_checkpoint -auto_incremental -incremental {D:/Subject/SoCs/Lab/Lab 1/Homework/hw/hw.srcs/utils_1/imports/synth_1/divider_unsigned.dcp}
+INFO: [Vivado 12-5825] Read reference checkpoint from D:/Subject/SoCs/Lab/Lab 1/Homework/hw/hw.srcs/utils_1/imports/synth_1/divider_unsigned.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top divider_unsigned -part xc7z020clg400-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 16060
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 813.426 ; gain = 475.465
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'divider_unsigned' [D:/Subject/SoCs/Lab/Lab 1/Homework/divider_unsigned.v:1]
+INFO: [Synth 8-6157] synthesizing module 'divu_1iter' [D:/Subject/SoCs/Lab/Lab 1/Homework/divu_1iter.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'divu_1iter' (0#1) [D:/Subject/SoCs/Lab/Lab 1/Homework/divu_1iter.v:3]
+WARNING: [Synth 8-7071] port 'o_divisor' of module 'divu_1iter' is unconnected for instance 'inst' [D:/Subject/SoCs/Lab/Lab 1/Homework/divider_unsigned.v:19]
+WARNING: [Synth 8-7023] instance 'inst' of module 'divu_1iter' has 8 connections declared, but only 7 given [D:/Subject/SoCs/Lab/Lab 1/Homework/divider_unsigned.v:19]
+WARNING: [Synth 8-7071] port 'o_divisor' of module 'divu_1iter' is unconnected for instance 'inst' [D:/Subject/SoCs/Lab/Lab 1/Homework/divider_unsigned.v:19]
+WARNING: [Synth 8-7023] instance 'inst' of module 'divu_1iter' has 8 connections declared, but only 7 given [D:/Subject/SoCs/Lab/Lab 1/Homework/divider_unsigned.v:19]
+WARNING: [Synth 8-7071] port 'o_divisor' of module 'divu_1iter' is unconnected for instance 'inst' [D:/Subject/SoCs/Lab/Lab 1/Homework/divider_unsigned.v:19]
+WARNING: [Synth 8-7023] instance 'inst' of module 'divu_1iter' has 8 connections declared, but only 7 given [D:/Subject/SoCs/Lab/Lab 1/Homework/divider_unsigned.v:19]
+WARNING: [Synth 8-7071] port 'o_divisor' of module 'divu_1iter' is unconnected for instance 'inst' [D:/Subject/SoCs/Lab/Lab 1/Homework/divider_unsigned.v:19]
+WARNING: [Synth 8-7023] instance 'inst' of module 'divu_1iter' has 8 connections declared, but only 7 given [D:/Subject/SoCs/Lab/Lab 1/Homework/divider_unsigned.v:19]
+WARNING: [Synth 8-7071] port 'o_divisor' of module 'divu_1iter' is unconnected for instance 'inst' [D:/Subject/SoCs/Lab/Lab 1/Homework/divider_unsigned.v:19]
+WARNING: [Synth 8-7023] instance 'inst' of module 'divu_1iter' has 8 connections declared, but only 7 given [D:/Subject/SoCs/Lab/Lab 1/Homework/divider_unsigned.v:19]
+WARNING: [Synth 8-7071] port 'o_divisor' of module 'divu_1iter' is unconnected for instance 'inst' [D:/Subject/SoCs/Lab/Lab 1/Homework/divider_unsigned.v:19]
+WARNING: [Synth 8-7023] instance 'inst' of module 'divu_1iter' has 8 connections declared, but only 7 given [D:/Subject/SoCs/Lab/Lab 1/Homework/divider_unsigned.v:19]
+WARNING: [Synth 8-7071] port 'o_divisor' of module 'divu_1iter' is unconnected for instance 'inst' [D:/Subject/SoCs/Lab/Lab 1/Homework/divider_unsigned.v:19]
+WARNING: [Synth 8-7023] instance 'inst' of module 'divu_1iter' has 8 connections declared, but only 7 given [D:/Subject/SoCs/Lab/Lab 1/Homework/divider_unsigned.v:19]
+WARNING: [Synth 8-7071] port 'o_divisor' of module 'divu_1iter' is unconnected for instance 'inst' [D:/Subject/SoCs/Lab/Lab 1/Homework/divider_unsigned.v:19]
+WARNING: [Synth 8-7023] instance 'inst' of module 'divu_1iter' has 8 connections declared, but only 7 given [D:/Subject/SoCs/Lab/Lab 1/Homework/divider_unsigned.v:19]
+WARNING: [Synth 8-7071] port 'o_divisor' of module 'divu_1iter' is unconnected for instance 'inst' [D:/Subject/SoCs/Lab/Lab 1/Homework/divider_unsigned.v:19]
+WARNING: [Synth 8-7023] instance 'inst' of module 'divu_1iter' has 8 connections declared, but only 7 given [D:/Subject/SoCs/Lab/Lab 1/Homework/divider_unsigned.v:19]
+WARNING: [Synth 8-7071] port 'o_divisor' of module 'divu_1iter' is unconnected for instance 'inst' [D:/Subject/SoCs/Lab/Lab 1/Homework/divider_unsigned.v:19]
+WARNING: [Synth 8-7023] instance 'inst' of module 'divu_1iter' has 8 connections declared, but only 7 given [D:/Subject/SoCs/Lab/Lab 1/Homework/divider_unsigned.v:19]
+WARNING: [Synth 8-7071] port 'o_divisor' of module 'divu_1iter' is unconnected for instance 'inst' [D:/Subject/SoCs/Lab/Lab 1/Homework/divider_unsigned.v:19]
+WARNING: [Synth 8-7023] instance 'inst' of module 'divu_1iter' has 8 connections declared, but only 7 given [D:/Subject/SoCs/Lab/Lab 1/Homework/divider_unsigned.v:19]
+WARNING: [Synth 8-7071] port 'o_divisor' of module 'divu_1iter' is unconnected for instance 'inst' [D:/Subject/SoCs/Lab/Lab 1/Homework/divider_unsigned.v:19]
+WARNING: [Synth 8-7023] instance 'inst' of module 'divu_1iter' has 8 connections declared, but only 7 given [D:/Subject/SoCs/Lab/Lab 1/Homework/divider_unsigned.v:19]
+WARNING: [Synth 8-7071] port 'o_divisor' of module 'divu_1iter' is unconnected for instance 'inst' [D:/Subject/SoCs/Lab/Lab 1/Homework/divider_unsigned.v:19]
+WARNING: [Synth 8-7023] instance 'inst' of module 'divu_1iter' has 8 connections declared, but only 7 given [D:/Subject/SoCs/Lab/Lab 1/Homework/divider_unsigned.v:19]
+WARNING: [Synth 8-7071] port 'o_divisor' of module 'divu_1iter' is unconnected for instance 'inst' [D:/Subject/SoCs/Lab/Lab 1/Homework/divider_unsigned.v:19]
+WARNING: [Synth 8-7023] instance 'inst' of module 'divu_1iter' has 8 connections declared, but only 7 given [D:/Subject/SoCs/Lab/Lab 1/Homework/divider_unsigned.v:19]
+WARNING: [Synth 8-7071] port 'o_divisor' of module 'divu_1iter' is unconnected for instance 'inst' [D:/Subject/SoCs/Lab/Lab 1/Homework/divider_unsigned.v:19]
+WARNING: [Synth 8-7023] instance 'inst' of module 'divu_1iter' has 8 connections declared, but only 7 given [D:/Subject/SoCs/Lab/Lab 1/Homework/divider_unsigned.v:19]
+WARNING: [Synth 8-7071] port 'o_divisor' of module 'divu_1iter' is unconnected for instance 'inst' [D:/Subject/SoCs/Lab/Lab 1/Homework/divider_unsigned.v:19]
+WARNING: [Synth 8-7023] instance 'inst' of module 'divu_1iter' has 8 connections declared, but only 7 given [D:/Subject/SoCs/Lab/Lab 1/Homework/divider_unsigned.v:19]
+WARNING: [Synth 8-7071] port 'o_divisor' of module 'divu_1iter' is unconnected for instance 'inst' [D:/Subject/SoCs/Lab/Lab 1/Homework/divider_unsigned.v:19]
+WARNING: [Synth 8-7023] instance 'inst' of module 'divu_1iter' has 8 connections declared, but only 7 given [D:/Subject/SoCs/Lab/Lab 1/Homework/divider_unsigned.v:19]
+WARNING: [Synth 8-7071] port 'o_divisor' of module 'divu_1iter' is unconnected for instance 'inst' [D:/Subject/SoCs/Lab/Lab 1/Homework/divider_unsigned.v:19]
+WARNING: [Synth 8-7023] instance 'inst' of module 'divu_1iter' has 8 connections declared, but only 7 given [D:/Subject/SoCs/Lab/Lab 1/Homework/divider_unsigned.v:19]
+WARNING: [Synth 8-7071] port 'o_divisor' of module 'divu_1iter' is unconnected for instance 'inst' [D:/Subject/SoCs/Lab/Lab 1/Homework/divider_unsigned.v:19]
+WARNING: [Synth 8-7023] instance 'inst' of module 'divu_1iter' has 8 connections declared, but only 7 given [D:/Subject/SoCs/Lab/Lab 1/Homework/divider_unsigned.v:19]
+WARNING: [Synth 8-7071] port 'o_divisor' of module 'divu_1iter' is unconnected for instance 'inst' [D:/Subject/SoCs/Lab/Lab 1/Homework/divider_unsigned.v:19]
+WARNING: [Synth 8-7023] instance 'inst' of module 'divu_1iter' has 8 connections declared, but only 7 given [D:/Subject/SoCs/Lab/Lab 1/Homework/divider_unsigned.v:19]
+WARNING: [Synth 8-7071] port 'o_divisor' of module 'divu_1iter' is unconnected for instance 'inst' [D:/Subject/SoCs/Lab/Lab 1/Homework/divider_unsigned.v:19]
+WARNING: [Synth 8-7023] instance 'inst' of module 'divu_1iter' has 8 connections declared, but only 7 given [D:/Subject/SoCs/Lab/Lab 1/Homework/divider_unsigned.v:19]
+WARNING: [Synth 8-7071] port 'o_divisor' of module 'divu_1iter' is unconnected for instance 'inst' [D:/Subject/SoCs/Lab/Lab 1/Homework/divider_unsigned.v:19]
+WARNING: [Synth 8-7023] instance 'inst' of module 'divu_1iter' has 8 connections declared, but only 7 given [D:/Subject/SoCs/Lab/Lab 1/Homework/divider_unsigned.v:19]
+WARNING: [Synth 8-7071] port 'o_divisor' of module 'divu_1iter' is unconnected for instance 'inst' [D:/Subject/SoCs/Lab/Lab 1/Homework/divider_unsigned.v:19]
+WARNING: [Synth 8-7023] instance 'inst' of module 'divu_1iter' has 8 connections declared, but only 7 given [D:/Subject/SoCs/Lab/Lab 1/Homework/divider_unsigned.v:19]
+WARNING: [Synth 8-7071] port 'o_divisor' of module 'divu_1iter' is unconnected for instance 'inst' [D:/Subject/SoCs/Lab/Lab 1/Homework/divider_unsigned.v:19]
+WARNING: [Synth 8-7023] instance 'inst' of module 'divu_1iter' has 8 connections declared, but only 7 given [D:/Subject/SoCs/Lab/Lab 1/Homework/divider_unsigned.v:19]
+WARNING: [Synth 8-7071] port 'o_divisor' of module 'divu_1iter' is unconnected for instance 'inst' [D:/Subject/SoCs/Lab/Lab 1/Homework/divider_unsigned.v:19]
+WARNING: [Synth 8-7023] instance 'inst' of module 'divu_1iter' has 8 connections declared, but only 7 given [D:/Subject/SoCs/Lab/Lab 1/Homework/divider_unsigned.v:19]
+WARNING: [Synth 8-7071] port 'o_divisor' of module 'divu_1iter' is unconnected for instance 'inst' [D:/Subject/SoCs/Lab/Lab 1/Homework/divider_unsigned.v:19]
+WARNING: [Synth 8-7023] instance 'inst' of module 'divu_1iter' has 8 connections declared, but only 7 given [D:/Subject/SoCs/Lab/Lab 1/Homework/divider_unsigned.v:19]
+WARNING: [Synth 8-7071] port 'o_divisor' of module 'divu_1iter' is unconnected for instance 'inst' [D:/Subject/SoCs/Lab/Lab 1/Homework/divider_unsigned.v:19]
+WARNING: [Synth 8-7023] instance 'inst' of module 'divu_1iter' has 8 connections declared, but only 7 given [D:/Subject/SoCs/Lab/Lab 1/Homework/divider_unsigned.v:19]
+WARNING: [Synth 8-7071] port 'o_divisor' of module 'divu_1iter' is unconnected for instance 'inst' [D:/Subject/SoCs/Lab/Lab 1/Homework/divider_unsigned.v:19]
+WARNING: [Synth 8-7023] instance 'inst' of module 'divu_1iter' has 8 connections declared, but only 7 given [D:/Subject/SoCs/Lab/Lab 1/Homework/divider_unsigned.v:19]
+WARNING: [Synth 8-7071] port 'o_divisor' of module 'divu_1iter' is unconnected for instance 'inst' [D:/Subject/SoCs/Lab/Lab 1/Homework/divider_unsigned.v:19]
+WARNING: [Synth 8-7023] instance 'inst' of module 'divu_1iter' has 8 connections declared, but only 7 given [D:/Subject/SoCs/Lab/Lab 1/Homework/divider_unsigned.v:19]
+WARNING: [Synth 8-7071] port 'o_divisor' of module 'divu_1iter' is unconnected for instance 'inst' [D:/Subject/SoCs/Lab/Lab 1/Homework/divider_unsigned.v:19]
+WARNING: [Synth 8-7023] instance 'inst' of module 'divu_1iter' has 8 connections declared, but only 7 given [D:/Subject/SoCs/Lab/Lab 1/Homework/divider_unsigned.v:19]
+WARNING: [Synth 8-7071] port 'o_divisor' of module 'divu_1iter' is unconnected for instance 'inst' [D:/Subject/SoCs/Lab/Lab 1/Homework/divider_unsigned.v:19]
+WARNING: [Synth 8-7023] instance 'inst' of module 'divu_1iter' has 8 connections declared, but only 7 given [D:/Subject/SoCs/Lab/Lab 1/Homework/divider_unsigned.v:19]
+WARNING: [Synth 8-7071] port 'o_divisor' of module 'divu_1iter' is unconnected for instance 'inst' [D:/Subject/SoCs/Lab/Lab 1/Homework/divider_unsigned.v:19]
+WARNING: [Synth 8-7023] instance 'inst' of module 'divu_1iter' has 8 connections declared, but only 7 given [D:/Subject/SoCs/Lab/Lab 1/Homework/divider_unsigned.v:19]
+INFO: [Synth 8-6155] done synthesizing module 'divider_unsigned' (0#1) [D:/Subject/SoCs/Lab/Lab 1/Homework/divider_unsigned.v:1]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 917.504 ; gain = 579.543
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 917.504 ; gain = 579.543
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 917.504 ; gain = 579.543
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 917.504 ; gain = 579.543
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input   32 Bit       Adders := 32    
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 32    
+	   2 Input    1 Bit        Muxes := 32    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-7129] Port i_remainder[31] in module divu_1iter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_quotient[31] in module divu_1iter is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 1126.988 ; gain = 789.027
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 1142.785 ; gain = 804.824
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1173.730 ; gain = 835.770
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 1343.652 ; gain = 1005.691
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 1343.652 ; gain = 1005.691
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 1343.652 ; gain = 1005.691
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 1343.652 ; gain = 1005.691
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 1343.652 ; gain = 1005.691
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 1343.652 ; gain = 1005.691
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |CARRY4 |   384|
+|2     |LUT1   |    62|
+|3     |LUT2   |   203|
+|4     |LUT3   |   456|
+|5     |LUT4   |   686|
+|6     |LUT5   |   570|
+|7     |LUT6   |  1228|
+|8     |IBUF   |    64|
+|9     |OBUF   |    64|
++------+-------+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |  3717|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 1343.652 ; gain = 1005.691
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 67 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 1343.652 ; gain = 1005.691
+Synthesis Optimization Complete : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 1343.652 ; gain = 1005.691
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.036 . Memory (MB): peak = 1358.715 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 384 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'divider_unsigned' is not ideal for floorplanning, since the cellview 'divider_unsigned' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1480.328 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: 97c75cdd
+INFO: [Common 17-83] Releasing license: Synthesis
+20 Infos, 68 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:21 ; elapsed = 00:00:25 . Memory (MB): peak = 1480.328 ; gain = 1148.887
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.013 . Memory (MB): peak = 1480.328 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'D:/Subject/SoCs/Lab/Lab 1/Homework/hw/hw.runs/synth_1/divider_unsigned.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file divider_unsigned_utilization_synth.rpt -pb divider_unsigned_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri Dec 12 15:12:20 2025...

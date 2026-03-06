@@ -1,0 +1,10 @@
+0.7
+2020.2
+Nov  8 2024
+22:36:57
+D:/Subject/SoCs/Lab/Lab4/DatapathMultiCycle.v,1765552843,verilog,,D:/Subject/SoCs/Lab/Lab4/DividerUnsignedPipelined.v,,DatapathMultiCycle;MemorySingleCycle;Processor;RegFile,,,,,,,,
+D:/Subject/SoCs/Lab/Lab4/DividerUnsignedPipelined.v,1765253952,verilog,,D:/Subject/SoCs/Lab/Lab4/cla.v,,DividerUnsignedPipelined,,,,,,,,
+D:/Subject/SoCs/Lab/Lab4/cla.v,1765530587,verilog,,D:/Subject/SoCs/Lab/Lab4/divu_1iter.v,,cla;gp1;gp4;gp8,,,,,,,,
+D:/Subject/SoCs/Lab/Lab4/divu_1iter.v,1765254314,verilog,,D:/Subject/SoCs/Lab/Lab4/tb_processor.v,,divu_1iter,,,,,,,,
+D:/Subject/SoCs/Lab/Lab4/mc/mc.sim/sim_1/behav/xsim/glbl.v,1724786425,verilog,,,,glbl,,,,,,,,
+D:/Subject/SoCs/Lab/Lab4/tb_processor.v,1765250861,verilog,,,,tb_processor,,,,,,,,

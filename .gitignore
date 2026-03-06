@@ -1,0 +1,12 @@
+# Chặn tất cả thư mục khác trong Subject
+/*
+
+# CHỈ cho phép folder .Hackathon và các file cấu hình đi qua
+!.Hackathon/
+!.gitignore
+!.gitattributes
+
+# Bên trong .Hackathon, chặn triệt để data và venv để bảo vệ dung lượng
+.Hackathon/**/data/
+.Hackathon/**/venv/
+.Hackathon/**/__pycache__/

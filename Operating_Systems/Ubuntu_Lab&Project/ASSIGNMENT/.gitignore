@@ -1,0 +1,54 @@
+# Compiled Object files
+*.o
+*.obj
+obj/
+
+# Executables
+os
+mem
+sched
+*.exe
+*.out
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# GCC coverage testing tool files
+*.gcov
+*.gcda
+*.gcno
+
+# Test outputs
+test_output_*.tmp
+*.log
+
+# Generated files
+src/*.lst
+syscalltbl.lst
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Build directories
+build/
+dist/
+
+# Backup files
+*.bak
+*.backup
+
+# Core dumps
+core
+core.*
+
+# Temporary files
+*.tmp
+temp/
